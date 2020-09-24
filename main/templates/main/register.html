@@ -10,6 +10,7 @@
     <script type="text/javascript" src="{% static 'main/register.js' %}"></script>
     {% csrf_token %}
     名前:<input type="text" name="name" size="40"><br>
+    ステータス:<input type="text" name="status"><br>
     吹き出しサイズ:<input type="number" name="size"><br>
     現在地取得:<input type="button" value="ここをクリックして取得開始" onclick="getPosition()"><br>
     <input type="submit" value="送信"><input type="reset" value="リセット">

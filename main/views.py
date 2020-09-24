@@ -31,6 +31,7 @@ class Regist(views.View):
     def post(self, request: http.HttpRequest):
         user = User()
         user.Name = request.POST['name']
+        user.Status = request.POST['status']
         user.Size = float(request.POST['size'].__str__())
         user.Latitude = float(request.POST['latitude'].__str__())
         user.Longitude = float(request.POST['longitude'].__str__())
