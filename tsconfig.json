@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "types": ["googlemaps"],
+    "target": "ES2020"
+  },
+  "files": [
+    "./main/static/main/radar.ts",
+    "./main/static/main/register.ts"
+  ]
+}

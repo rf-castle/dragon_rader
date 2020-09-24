@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ドラゴンレーダー</title>
+    <script
+        src="http://maps.google.com/maps/api/js?sensor=false&key={{ key }}&callback=initMap"
+        type="text/javascript"
+        defer
+    ></script>
+</head>
+<body>
+<div id="map" style="width: 1000px; height: 800px;"></div>
+<script type="text/javascript" src="{% static 'main/radar.js' %}"></script>
+
+</body>
+</html>
